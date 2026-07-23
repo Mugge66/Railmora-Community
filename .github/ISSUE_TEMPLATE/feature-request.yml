@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest a focused improvement to Railmora
+title: "[Idea] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the layout-planning task that is currently difficult.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested solution
+      description: Explain the workflow you would like Railmora to support.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or examples
+      description: Mention other software only when it helps explain the workflow.
+

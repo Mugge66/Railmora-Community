@@ -1,0 +1,63 @@
+name: Bug report
+description: Report a reproducible problem in the Railmora public beta
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for testing Railmora. Do not include passwords, licence keys,
+        payment details or other private information.
+  - type: input
+    id: version
+    attributes:
+      label: Railmora version
+      placeholder: For example 9.0.0-rc.69
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the smallest set of steps that reliably triggers the problem.
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. Click...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots or sample project
+      description: Attach only files that are safe to share publicly.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: I tested the latest public beta.
+          required: true
+        - label: I removed private information and licence data.
+          required: true
+

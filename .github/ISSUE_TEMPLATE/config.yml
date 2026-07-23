@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private support
+    url: mailto:info@railmora.eu
+    about: Licence, payment, privacy and security matters
+  - name: Railmora website
+    url: https://railmora.eu
+    about: Download the latest public beta
+
