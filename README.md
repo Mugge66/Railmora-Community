@@ -3,6 +3,8 @@
 This is the public community space for [Railmora](https://railmora.eu), the
 model railway layout designer for Windows.
 
+Read [What's New in Railmora](WHATS_NEW.md) for the latest public release notes.
+
 ## What belongs here
 
 - Questions about using Railmora
