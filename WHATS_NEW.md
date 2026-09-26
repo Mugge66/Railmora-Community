@@ -4,6 +4,48 @@ Simple release history. Each line describes the main improvement in that update.
 
 ## Current updates
 
+- **rc.400** — Rib editing in 3D Construction gains more top and side grips that follow the pointer without the former pause.
+- **rc.399** — Create tunnel is directly visible in the 3D toolbar, including Simple view.
+- **rc.398** — Guided tunnel controls are available in Danish, English, German, French and Dutch.
+- **rc.397** — Guided tunnels use first and last connected tracks, a preview and explicit Apply or Cancel.
+- **rc.396** — The lightweight Realistic 3D diesel gains a more recognizable MY/NOHAB-inspired silhouette.
+- **rc.395** — Town plates can be deleted by double-click or Delete, with construction Undo available.
+- **rc.394** — Double-clicking a track in Select/Move deletes it; Ctrl+Z restores it.
+- **rc.393** — Placing one building ends placement mode so the town plate can be selected and resized again.
+- **rc.392** — Buildings can be placed on elevated town plates when the tracks below have sufficient clearance.
+- **rc.389** — 3D Construction gets a compact header and remembers whether its right inspector is open.
+- **rc.388** — The five left-side workspace tabs fit into two rows instead of three.
+- **rc.387** — The visible Simple/Advanced button label now changes with the active view after localization.
+- **rc.386** — The view-mode label also updates after delayed toolbar layout work.
+- **rc.385** — The view-mode button follows the active workspace mode when its control is recreated.
+- **rc.384** — Manually drawn helices can descend as well as ascend, with grade and clearance checks in both directions.
+- **rc.383** — Switching back to Realistic view removes Technical level colours and Guardian markers.
+- **rc.382** — Realistic 3D becomes the normal 3D overview and adds an optional Technical check and easier test-run starts.
+- **rc.381** — Clicking a hillside can fill a contained terrain basin with a lake while retaining the surrounding slopes.
+- **rc.380** — Realistic 3D gains editable lakes and more detailed buildings, turntables and transfer tables.
+- **rc.379** — 3D Construction can place and edit scenery on town plates, with a remembered Show Scenery switch.
+- **rc.378** — The 3D height ruler can measure from rail top to the underside of a town plate overhead.
+- **rc.377** — Touching town plates can be selected and edited independently, with more responsive updates.
+- **rc.376** — Construction clearance checks move into a clearer, collapsible inspector section.
+- **rc.375** — Direct 3D Construction toggles show height, level colours, section and X-ray; the colour choice is remembered.
+- **rc.374** — Guardian reviews board limits and combined grade/clearance repairs without silently changing board size.
+- **rc.373** — Smooth Ramp handles free crests and dips better, and workshop dimension sheets become clearer.
+- **rc.372** — Rib stock-sheet plans gain clearer hole-reading instructions and stronger measurement checks.
+- **rc.371** — Each rib stock-sheet plan gains numbered hole measurements from the sheet and rib edges.
+- **rc.370** — Guardian repair summaries distinguish remaining issues, while Undo remains safe during active edits.
+- **rc.369** — Guardian highlights cross-level joins before height repairs, and track dragging gains safer magnetic height changes.
+- **rc.368** — Track connection checks distinguish real physical joins from overlapping 2D drawings.
+- **rc.367** — Board creation, locking and resizing guidance is available in all five interface languages.
+- **rc.366** — Initial track and board dragging is smoother on large layouts.
+- **rc.365** — Track and flex editing better protects connected ends and keeps applied changes undoable.
+- **rc.364** — Every rib gets a dimensioned workshop overview with opening locations and a layout-position map.
+- **rc.363** — The workshop manual and material descriptions follow the chosen PDF language, including Dutch.
+- **rc.362** — Smart Workshop adds 1:1 track-sheet planning and optional rib nesting on stock sheets.
+- **rc.361** — Multilevel proposals receive stricter service-access checks and live print-page estimates.
+- **rc.360** — Preview, Trial and Store candidates receive a repeatable build and regression gate.
+- **rc.359** — Guardian reports complete findings and distinguishes a reviewed queue from a repaired layout.
+- **rc.358** — Guardian calculates grouped repairs on a copy, with progress, Cancel and validated Undo.
+- **rc.357** — Leaving Boards with unlocked boards now offers a clear Lock or Keep unlocked choice.
 - **rc.356** — Calmer object editing with pending-input feedback, reset buttons and foldable details.
 - **rc.355** — The Simple/Advanced label now always reflects the active view.
 - **rc.354** — Layout Assistant remembers inputs and supports PECO Code 55 flex layouts.
